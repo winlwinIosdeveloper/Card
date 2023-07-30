@@ -1,0 +1,63 @@
+body {
+    background-color: gainsboro;
+}
+.card {
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    width: 35%;
+    height: 40%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.grip-button {
+    text-align: end;
+    margin: 2%;
+    color: gray
+}
+
+.profile {
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.profile .profile-image {
+    border: 1px solid red;
+}
+
+.profile .div {
+    border: 1px solid black;
+}
+
+
+
+
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.profile-image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.fa-circle-check {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color:teal;
+}
