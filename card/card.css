@@ -1,113 +1,95 @@
 body {
-    background-color: gainsboro;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
+  background-image: url("https://mcdn.wallpapersafari.com/medium/13/34/MeEa4R.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 12px;
 }
+
 .card {
-    padding: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
 }
 
-.card-container {
-    width: 300px;
-    background-color: white;
-    border-radius: 5px;
+.container {
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  border-radius: 5px;
 }
 
-
-.grip-button {
-    text-align: end;
-    margin: 5%;
-    color: gray
-}
-
-
-
-
-.profile {
-    text-align: center;
-}
-
-.name {
-    font-size: 15px;
+.three-grip {
+  text-align: end;
+  margin: 10px 10px 0 0;
+  font-size: 20px;
 }
 
 .image-content {
-    margin: auto;
-    width: 100px;
-    height: 100px;
-    position: relative;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.image-content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.image-content i {
+  position: absolute;
+  bottom: -10px;
+  right: 40px;
+  font-size: large;
+  color: dodgerblue;
+}
+.about {
+  text-align: center;
+}
+.name {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.profession {
+  margin-top: 5px;
+}
+.profile-container {
+  margin: 25px 0;
 }
 
-.image-content img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.status-container {
+  display: flex;
+  justify-content: space-around;
 }
-
-.fa-circle-check {
-    position: absolute;
-    bottom: 10%;
-    right: 10%;
-    color:teal;
-}
-
-
-
-.status {
-    display: flex;
-    justify-content: space-around;
-}
-
 .status-catagory {
-    text-align: center;
+  text-align: center;
 }
-
-
 
 .description {
-    margin: 0 30px 0 30px;
-    text-align: center;
-    font-size: 8px;
+  margin: 20px;
+  text-align: center;
+  font-size: 10px;
 }
-
-
 
 .social-links {
-    font-size: large;
-    margin: 0 30% 0 30%;
-    display: flex;
-    justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.fa-square-twitter {
-    color: dodgerblue;
+.link {
+  font-size: x-large;
 }
-
-.fa-facebook {
-    color: blue;
-}
-
-.fa-google-plus {
-    color: orange;
-}
-
-.fa-square-behance {
-    color: blue;
-}
-
 
 .view-profile-btn {
-    text-align: center;
-    margin: 20px 0 20px 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
-
 .view-profile-btn button {
-    padding: 5px 25px 5px 25px;
-    border: 1px solid gainsboro;
-    background-color: white;
-    border-radius: 20px;
-
+  border: 1px solid gainsboro;
+  background-color: white;
+  padding: 10px 100px;
+  border-radius: 30px;
 }
