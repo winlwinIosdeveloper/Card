@@ -18,38 +18,25 @@ body {
 
 .grip-button {
     text-align: end;
-    margin: 2%;
+    margin: 5%;
     color: gray
 }
 
+
+
+
 .profile {
-    height: 300px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-
+    text-align: center;
 }
 
-
-.profile .profile-image {
-    border: 1px solid red;
-}
-
-.profile .div {
-    border: 1px solid black;
-}
-
-
-
-
-
-.profile-image {
+.image-content {
+    margin: auto;
     width: 100px;
     height: 100px;
     position: relative;
 }
 
-.profile-image img{
+.image-content img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -61,3 +48,16 @@ body {
     right: 5%;
     color:teal;
 }
+
+
+
+.status {
+    display: flex;
+    justify-content: space-around;
+}
+
+.status-catagory {
+    text-align: center;
+}
+
+
